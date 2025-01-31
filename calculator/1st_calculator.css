@@ -1,0 +1,49 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+    text-align: center;
+ }
+ p{
+    padding: none;
+ }
+ #h1{
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+ }
+ div{
+    border: 2px solid;
+ 
+   
+ }
+ #main{
+    background-color: rgba(178, 178, 178, 0.832);
+    height: auto;
+    width: auto;
+    display: inline-block ;
+ 
+ }
+ #screen{
+    min-height: 100px;
+    text-align: left;
+ }
+ #body button{
+    
+    height: 75px;
+    min-width: 75px ;
+    border-radius: 10px;
+ }
+ #body button:active{
+    background-color: greenyellow;
+ }
+ .cancel{
+    background-color: grey;
+ }
+ .one{
+    height: 75px;
+    width: 75px;
+ }
+ 
+ #input{
+    font-size: 3em;
+    color: black;
+ }

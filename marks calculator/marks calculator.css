@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: rgb(192, 192, 192);
+    font-size: large;
+}
+button{
+    font-size: 40px;
+    border-radius: 50px;
+    background-color: rgb(192, 192, 192);
+}
+.head{
+font-size: 30px;
+}
+.input{
+    font-size: 30px;
+}
+.id{
+    font-size: 30px;
+}
