@@ -1,0 +1,88 @@
+@keyframes glow{
+    50%{ box-shadow:  0px 0px 100px rgb(118, 250, 255);}
+}
+body{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.693);
+    font-size: 1.4em;
+
+}
+#heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 3em;
+    margin-top: 0px;
+}
+.innerdiv{
+    display:inline-block ;
+    justify-content: center;
+    border: 1px;
+}
+.question{
+    padding: 10px;
+
+
+}
+#rng1{
+    border: 2px;
+    border-radius: 10px;
+    border-color: black;
+}
+.mcqup{
+    display: inline-block;
+}
+.mcqdn{
+    display: inline-block;
+}
+.mcq{
+    width: 300px;
+    height: auto;
+    font-size: 2em;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.097) ;
+    color: rgba(255, 255, 255, 0.37);
+
+}
+.mcq:hover{
+    box-shadow:  0px 0px 100px rgb(118, 250, 255);
+    background-color:  rgba(118, 250, 255, 0.194);
+    color: rgba(255, 255, 255, 0.721); ;
+    cursor: pointer;
+}
+#mcq1{
+    margin-right: 0px;
+    margin-bottom: 5px;
+}
+#mcq2{
+    margin-left: 0px;
+}
+#upperdiv{
+    font-size: 2em;
+    margin-top: 0px;
+}
+.otrbtn{
+    width: 300px;
+    height: auto;
+    font-size: 1.5em;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.097) ;
+    color: rgba(255, 255, 255, 0.37);
+    cursor: pointer;
+}
+.otrbtn:hover{
+    box-shadow:  0px 0px 100px rgb(118, 250, 255);
+    background-color:  rgba(118, 250, 255, 0.194);
+    color: rgba(255, 255, 255, 0.721);    
+    cursor: pointer;
+}
+.otrbtn:active{
+    background-color: black;
+    box-shadow:  0px 0px 100px rgb(118, 250, 255)
+}
+#HOME{
+    display: inline-block;
+}
+#reload{
+    display: inline-flex;
+    margin-left: 54.5%;
+}
